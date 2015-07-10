@@ -1,0 +1,21 @@
+{
+  "name": "Angular-Karma-Testing",
+  "version": "1.0.0",
+  "authors": [
+    "Hamid Hoseini <hamid_hoseini@aol.com>"
+  ],
+  "description": "First Angular app with Karma",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-mocks": "~1.4.2",
+    "angular-resource": "~1.4.2",
+    "angular": "~1.4.2"
+  }
+}
