@@ -23,7 +23,10 @@ describe('dessert manager', function () {
         expect(flavors.length).toEqual(3);
         expect(flavors[1]).toEqual('lemon');
     });
-
+    it('should be sorted data by flavor', function () {
+        var flavors= factory.pieFlavorSort();
+        expect(flavors[0].flavor).toEqual('apple');
+    })
     it('should threw an error if there are no pies', function () {
         values.pies = null;
         expect(function () {
@@ -31,4 +34,5 @@ describe('dessert manager', function () {
         }).toThrow();
 
     });
+
 });

@@ -2,7 +2,7 @@
  * Created by Hamid on 7/9/2015.
  */
 describe('pieController', function () {
-   var $rootScope,
+    var $rootScope,
        $scope,
        $controller,
        controller;
